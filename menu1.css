@@ -4,6 +4,14 @@ html {
     padding: 0;
 }
 
+.guess {
+    justify-content: center;
+    margin: 1%;
+    height: 15%;
+    width: 1% 0;
+    padding: 1%;
+}
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -21,18 +29,62 @@ h1 {
     background-color: navy;
     color: white;
     border: none;
-    padding: 5px 10px;
+    padding: 1%  1%;
     cursor: pointer;
     border-radius: 9px;
 }
 
 .guessSubmit:hover {
-    background-color: aqua;
+    background-color: rgb(69, 157, 244);
     transition: .3s ease-in-out;
     transition-delay: .4s;
-    border-radius: 9%;
+    border-radius: 9px;
 }
 
 .message {
     color: navy;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h1 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li a:hover {
+    color: #ddd;
+}
+
