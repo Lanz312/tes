@@ -1,0 +1,38 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: navy;
+}
+
+.guessField {
+    width: 40px;
+}
+
+.guessSubmit {
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+.guessSubmit:hover {
+    background-color: aqua;
+    transition: .3s ease-in-out;
+    transition-delay: .4s;
+    border-radius: 9%;
+}
+
+.message {
+    color: navy;
+}
